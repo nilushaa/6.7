@@ -50,7 +50,7 @@ function ProductList() {
     <div className="p-6 bg-gray-100 min-h-screen flex justify-center">
       <div className="w-full max-w-6xl">
         <header className="flex items-center justify-between mb-10 p-6 bg-blue-200 hover:bg-blue-500 shadow-lg rounded-lg relative">
-          <div className="text-2xl font-bold text-blue-50">🛍 NILUshopping</div>
+          <div className="text-2xl font-bold text-zinc-500">🛍 NILUshopping</div>
           <div className="flex gap-4 items-center">
             <input
               type="text"
