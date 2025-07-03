@@ -1,15 +1,17 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ProductList from "./pages/productList";
-import ProductDetail from "./pages/productDeta";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ProductList from "./pages/ProductList"; 
+import ProductDetail from "./pages/ProductDetail"; 
 
-export default function App() {
+function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
         <Route path="/" element={<ProductList />} />
         <Route path="/product/:id" element={<ProductDetail />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
+
+export default App;
