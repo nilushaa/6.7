@@ -391,7 +391,7 @@ function ProductList() {
                   O'chirish
                 </button>
               </div>
-            </div>
+            </div> 
           );
         })}
       </div>
