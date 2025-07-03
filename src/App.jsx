@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ProductList from "./pages/ProductList"; 
+import ProductList from "./pages/productList.jsx";
 import ProductDetail from "./pages/ProductDetail"; 
 
 function App() {
@@ -15,4 +15,4 @@ function App() {
 }
 
 export default App;
-  s
+  
